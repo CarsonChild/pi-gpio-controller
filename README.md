@@ -20,3 +20,4 @@ A Python web server application for controlling up to 6 GPIOs from your browser.
 5. Now in a browser on another device (Such as a smartphone or laptop), navigate to [RaspberryPiIPAddress]:5000/garden 
    - This should look something like 192.168.1.29:5000/garden 
    - If you don't know your pi's IP address, type `hostname -I` in the terminal.
+6. You should see 6 buttons, an input bar and another button. If a button is blue, then that pin will turn on for that interval otherwise it will stay off.
