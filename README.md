@@ -7,4 +7,5 @@ A Python web server application for controlling up to 6 GPIOs from your browser.
   sudo apt-get update
   sudo apt-get upgrade
   ```
-3. 
+3. Now run the following commands to make and enter the mkdir webapp`
+4. 
