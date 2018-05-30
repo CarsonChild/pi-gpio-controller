@@ -1,5 +1,5 @@
-# pi-gpio-controller
-A Python web server application for controlling up to 6 GPIOs from your browser.
+# Raspberry Pi Garden Controller
+A Python web server application for controlling up to 6 GPIOs from your browser. For your garden, the GPIOs would be wired to a relay or a solenoid valve that could control the water.
 ## Installation
 1. Format your SD card and install the latest version of [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
 2. Open the console and run the following two commands:
@@ -10,7 +10,7 @@ A Python web server application for controlling up to 6 GPIOs from your browser.
 3. Now run the following command to clone the files:
     ```
     cd ~
-    git clone https://github.com/CarsonChild/pi-gpio-controller/webapp/
+    git clone https://github.com/CarsonChild/pi-gpio-controller/tree/master/webapp
     ```
 4. Now enter the directory and run the app:
     ```
