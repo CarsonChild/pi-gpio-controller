@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+#controls{
+    display: grid;
+    grid-template-columns: auto 50vw;
+    grid-template-rows: calc(25vh - 6.25px) calc(25vh - 6.25px)  calc(25vh - 6.25px) calc(25vh - 6.25px) ;
+    grid-gap: 5px;
+    background-color: #000000;
+    padding: 5px;
+}
+.checkbox, .interval{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding:calc(50vh/8) 0;
+    font-size: 30px;
+    color: #000000;
+}
+#interval{
+    width: calc(25vw - 10px);
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px solid #2C3C7B;
+}
+#interval-label{
+    font-size:24px;
+}
