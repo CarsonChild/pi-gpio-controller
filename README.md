@@ -22,7 +22,7 @@ A Python web server application for controlling up to 6 GPIOs from your browser.
 6. Now in a browser on another device (Such as a smartphone or laptop), navigate to [RaspberryPiIPAddress]:5000/garden 
    - This should look something like 192.168.1.29:5000/garden 
    - If you don't know your pi's IP address, type `hostname -I` in the terminal.
-7. You should see 6 buttons, an input bar and another button. If a button is blue, then that pin will turn on for that interval when "Water" is pressed otherwise it will stay off.
+7. You should see 6 buttons, an input bar and another button. If a button is blue, then that pin will turn on for that interval (seconds) when "Water" is pressed otherwise it will stay off.
 
 ## Wiring 
 In the webapp, Button 1 corrosponds with GPIO17, Button 2 to GPIO18, Button 3 to GPIO27, Button 4 to GPIO22, Button 5 to GPIO23, and Button 6 to GPIO24. The GPIOs should be hooked up to the switch on your relay or solenoid valve. A map of the GPIOs on Raspberry Pis 2 and 3 is seen below.
