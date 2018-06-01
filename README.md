@@ -3,7 +3,7 @@ A Python web server application for controlling up to 6 GPIOs from your browser.
 ## Installation
 1. Format your SD card and install the latest version of [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
 2. Connect your pi to the same WiFi you will also be controlling it from and I also recommend changing your keyboard layout to US. (Preferences -> Mouse and Keyboard Settings). Also, you will probably need more space on your SD card for installing updates and packages so open the console and run `sudo raspi-config` and then navigate to Advanced Options -> Expand Filesystem then reboot.
-3.After the reboot, open the console again and run the following three commands to make sure your pi is up to date and to install Flask:
+3. After the reboot, open the console again and run the following three commands to make sure your pi is up to date and to install Flask:
     ```
     sudo apt-get update
     sudo apt-get upgrade
