@@ -2,7 +2,7 @@
 A Python web server application for controlling up to 6 GPIOs from your browser. For your garden, the GPIOs would be wired to a relay or a solenoid valve that could control the water.
 ## Installation
 1. Format your SD card and install the latest version of [Raspbian](https://www.raspberrypi.org/downloads/raspbian/).
-2. Connect your pi to the same WiFi you will also be controlling it from and I also recommend changing your keyboard layout to US. (Preferences -> Mouse and Keyboard Settings). Also, you will probably need more space on your SD card for installing updates and packages so open the console and run `sudo raspi-config` and then navigate to Advanced Options -> Expand Filesystem then reboot.
+2. Connect your pi to the same WiFi you will also be controlling it from and I also recommend changing your keyboard layout to US. (Preferences -> Mouse and Keyboard Settings). Also, you will probably need more space on your SD card for installing updates and packages so open the console and run `sudo raspi-config` and then navigate to Advanced Options -> Expand Filesystem then reboot. If you want to run your pi headless after you connect it to the WiFI, also enable SSH and use [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) on another computer to use the console on your pi withount having to hook it up to a monitor, otherwise, continue the setup with your pi hooked up to a screen.
 3. After the reboot, open the console again and run the following three commands to make sure your pi is up to date and to install Flask:
     ```
     sudo apt-get update
