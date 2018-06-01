@@ -11,7 +11,6 @@ A Python web server application for controlling up to 6 GPIOs from your browser.
     ```
 4. Now run the following command to clone the files into your home directory:
     ```
-    cd ~
     git clone https://github.com/CarsonChild/pi-gpio-controller
     ```
 5. Now enter the directory and run the app:
