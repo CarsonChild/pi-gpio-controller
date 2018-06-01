@@ -1,7 +1,6 @@
 from flask import Flask, render_template
 import RPi.GPIO as GPIO
 import atexit
-import subprocess
 import time
 import thread
 import re
@@ -43,7 +42,8 @@ def exit_handler():
     setupGPIO()
     for i in pins:
        	GPIO.output(int(i), GPIO.LOW)
-
+    GPIO.cleanup()
+    
 atexit.register(exit_handler)
 
 if __name__ == '__main__':
