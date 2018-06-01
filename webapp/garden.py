@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 import RPi.GPIO as GPIO
+import subprocess
 import atexit
 import time
 import thread
